@@ -44,7 +44,7 @@ const PublicRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 function App() {
   return (
     <AuthProvider>
-      <Router basename="/VMS">
+      <Router basename="/vmsdev">
         <Routes>
           <Route
             path="/login"
